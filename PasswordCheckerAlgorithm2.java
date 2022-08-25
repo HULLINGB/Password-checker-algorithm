@@ -68,6 +68,7 @@ public class PasswordCheckerAlgorithm
             }
 		    }            
         }
+		
         if(valid2 == false)
 		{
 		    valid = false;
@@ -86,18 +87,16 @@ public class PasswordCheckerAlgorithm
 			    System.out.println(valid);
 				System.out.println("Your password is not valid");
             }
-            if(array.length < 6  && array.length > 20)
-            {
-                valid = false;
-				System.out.println(valid);
-				System.out.println("Your password is not valid");
-            }
-            
 		               
-        if(password.length() == 0){
+        if(password.length() > 20){
 			valid = false;
 			System.out.println(valid);
 			System.out.println("Your password is longer than 20 digits, make a shorter password");
+        }
+		if(password.length() == 0){
+			valid = false;
+			System.out.println(valid);
+			System.out.println("No password has been entered, please enter a password");
         }
         
           //System.out.println(valid);
