@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 //This algorithm checks if the password entered contains 1 lowercase,
-//1 uppercase, and 1 special character, 1 number, and has no duplicates
+//1 uppercase, 1 special character, 1 number, and has no duplicates
 // And checks that the password is at least 6 digits and less than 21 digits
 
 
