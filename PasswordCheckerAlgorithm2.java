@@ -60,7 +60,7 @@ public class PasswordCheckerAlgorithm
 			}
 			for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                if (array6[i].equals(array6[j]) && i != j) {
+                if (array6[i].equals(array6[j]) == true && i != j) {
                     valid6 = false;
                 }
             }
